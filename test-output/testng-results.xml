@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="7" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-23T12:20:57 IST" name="Suite" finished-at="2023-02-23T12:24:29 IST" duration-ms="211722">
+    <groups>
+    </groups>
+    <test started-at="2023-02-23T12:20:57 IST" name="chromeTest" finished-at="2023-02-23T12:22:20 IST" duration-ms="82944">
+      <class name="crossbrowserTESTNG.Verifyhoodie">
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@3d74bf60]" started-at="2023-02-23T12:20:57 IST" name="launchbrowser" finished-at="2023-02-23T12:21:05 IST" duration-ms="7485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="createpomobjects()[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@3d74bf60]" started-at="2023-02-23T12:21:07 IST" name="createpomobjects" finished-at="2023-02-23T12:21:07 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createpomobjects -->
+        <test-method is-config="true" signature="enterurlofapplication()[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@3d74bf60]" started-at="2023-02-23T12:21:07 IST" name="enterurlofapplication" finished-at="2023-02-23T12:21:13 IST" duration-ms="5196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurlofapplication -->
+        <test-method signature="verifytoproductchoose()[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@3d74bf60]" started-at="2023-02-23T12:21:13 IST" name="verifytoproductchoose" finished-at="2023-02-23T12:21:36 IST" duration-ms="22899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytoproductchoose -->
+        <test-method is-config="true" signature="failtestscreenshot(org.testng.ITestResult)[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@3d74bf60]" started-at="2023-02-23T12:21:36 IST" name="failtestscreenshot" finished-at="2023-02-23T12:21:36 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytoproductchoose status=SUCCESS method=Verifyhoodie.verifytoproductchoose()[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@3d74bf60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failtestscreenshot -->
+        <test-method is-config="true" signature="enterurlofapplication()[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@3d74bf60]" started-at="2023-02-23T12:21:36 IST" name="enterurlofapplication" finished-at="2023-02-23T12:21:37 IST" duration-ms="1508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurlofapplication -->
+        <test-method signature="VerifySecondproductchoose()[pri:1, instance:crossbrowserTESTNG.Verifyhoodie@3d74bf60]" started-at="2023-02-23T12:21:37 IST" name="VerifySecondproductchoose" finished-at="2023-02-23T12:21:55 IST" duration-ms="17610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySecondproductchoose -->
+        <test-method is-config="true" signature="failtestscreenshot(org.testng.ITestResult)[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@3d74bf60]" started-at="2023-02-23T12:21:55 IST" name="failtestscreenshot" finished-at="2023-02-23T12:21:55 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifySecondproductchoose status=SUCCESS method=Verifyhoodie.VerifySecondproductchoose()[pri:1, instance:crossbrowserTESTNG.Verifyhoodie@3d74bf60] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failtestscreenshot -->
+        <test-method is-config="true" signature="closewindow()[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@3d74bf60]" started-at="2023-02-23T12:21:55 IST" name="closewindow" finished-at="2023-02-23T12:21:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+        <test-method is-config="true" signature="closethebrowser()[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@3d74bf60]" started-at="2023-02-23T12:22:19 IST" name="closethebrowser" finished-at="2023-02-23T12:22:20 IST" duration-ms="914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closethebrowser -->
+      </class> <!-- crossbrowserTESTNG.Verifyhoodie -->
+      <class name="crossbrowserTESTNG.Verifypant">
+        <test-method is-config="true" signature="luanchingbrowser(java.lang.String)[pri:0, instance:crossbrowserTESTNG.Verifypant@27ce24aa]" started-at="2023-02-23T12:21:05 IST" name="luanchingbrowser" finished-at="2023-02-23T12:21:07 IST" duration-ms="2597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luanchingbrowser -->
+        <test-method is-config="true" signature="objectofpom()[pri:0, instance:crossbrowserTESTNG.Verifypant@27ce24aa]" started-at="2023-02-23T12:21:55 IST" name="objectofpom" finished-at="2023-02-23T12:21:55 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectofpom -->
+        <test-method is-config="true" signature="enterurlofapplication()[pri:0, instance:crossbrowserTESTNG.Verifypant@27ce24aa]" started-at="2023-02-23T12:21:55 IST" name="enterurlofapplication" finished-at="2023-02-23T12:22:05 IST" duration-ms="10753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurlofapplication -->
+        <test-method signature="verifytobuyMithraWarpuppant()[pri:0, instance:crossbrowserTESTNG.Verifypant@27ce24aa]" started-at="2023-02-23T12:22:05 IST" name="verifytobuyMithraWarpuppant" finished-at="2023-02-23T12:22:19 IST" duration-ms="13243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytobuyMithraWarpuppant -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:crossbrowserTESTNG.Verifypant@27ce24aa]" started-at="2023-02-23T12:22:19 IST" name="screenshot" finished-at="2023-02-23T12:22:19 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytobuyMithraWarpuppant status=SUCCESS method=Verifypant.verifytobuyMithraWarpuppant()[pri:0, instance:crossbrowserTESTNG.Verifypant@27ce24aa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="closewindow()[pri:0, instance:crossbrowserTESTNG.Verifypant@27ce24aa]" started-at="2023-02-23T12:22:19 IST" name="closewindow" finished-at="2023-02-23T12:22:19 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:crossbrowserTESTNG.Verifypant@27ce24aa]" started-at="2023-02-23T12:22:20 IST" name="closebrowser" finished-at="2023-02-23T12:22:20 IST" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- crossbrowserTESTNG.Verifypant -->
+    </test> <!-- chromeTest -->
+    <test started-at="2023-02-23T12:22:20 IST" name="firefoxTest" finished-at="2023-02-23T12:22:59 IST" duration-ms="39073">
+      <class name="crossbrowserTESTNG.Verifyhoodie">
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@6aba2b86]" started-at="2023-02-23T12:22:20 IST" name="launchbrowser" finished-at="2023-02-23T12:22:27 IST" duration-ms="6459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="createpomobjects()[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@6aba2b86]" started-at="2023-02-23T12:22:31 IST" name="createpomobjects" finished-at="2023-02-23T12:22:31 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createpomobjects -->
+        <test-method is-config="true" signature="enterurlofapplication()[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@6aba2b86]" started-at="2023-02-23T12:22:31 IST" name="enterurlofapplication" finished-at="2023-02-23T12:22:38 IST" duration-ms="6322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurlofapplication -->
+        <test-method signature="verifytoproductchoose()[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@6aba2b86]" started-at="2023-02-23T12:22:38 IST" name="verifytoproductchoose" finished-at="2023-02-23T12:22:39 IST" duration-ms="1247" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[url is correct expected [https://magento.softwaretestingboard.com/?ref=hackernoon.com] but found [https://magento.softwaretestingboard.com/men/tops-men/hoodies-and-sweatshirts-men.html]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: url is correct expected [https://magento.softwaretestingboard.com/?ref=hackernoon.com] but found [https://magento.softwaretestingboard.com/men/tops-men/hoodies-and-sweatshirts-men.html]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at crossbrowserTESTNG.Verifyhoodie.verifytoproductchoose(Verifyhoodie.java:94)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytoproductchoose -->
+        <test-method is-config="true" signature="failtestscreenshot(org.testng.ITestResult)[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@6aba2b86]" started-at="2023-02-23T12:22:39 IST" name="failtestscreenshot" finished-at="2023-02-23T12:22:40 IST" duration-ms="642" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytoproductchoose status=FAILURE method=Verifyhoodie.verifytoproductchoose()[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@6aba2b86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA["C:\Users\Admin\Pictures\Saved Pictures\jayesh.jpg (The filename, directory name, or volume label syntax is incorrect)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: "C:\Users\Admin\Pictures\Saved Pictures\jayesh.jpg (The filename, directory name, or volume label syntax is incorrect)
+at java.base/java.io.FileOutputStream.open0(Native Method)
+at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+at util.Utility.capturescreenshot(Utility.java:26)
+at crossbrowserTESTNG.Verifyhoodie.failtestscreenshot(Verifyhoodie.java:147)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failtestscreenshot -->
+        <test-method is-config="true" signature="enterurlofapplication()[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@6aba2b86]" started-at="2023-02-23T12:22:40 IST" name="enterurlofapplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1677135160165" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurlofapplication -->
+        <test-method signature="VerifySecondproductchoose()[pri:1, instance:crossbrowserTESTNG.Verifyhoodie@6aba2b86]" started-at="2023-02-23T12:22:40 IST" name="VerifySecondproductchoose" finished-at="2023-02-23T12:22:40 IST" duration-ms="0" status="SKIP">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA["C:\Users\Admin\Pictures\Saved Pictures\jayesh.jpg (The filename, directory name, or volume label syntax is incorrect)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: "C:\Users\Admin\Pictures\Saved Pictures\jayesh.jpg (The filename, directory name, or volume label syntax is incorrect)
+at java.base/java.io.FileOutputStream.open0(Native Method)
+at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+at util.Utility.capturescreenshot(Utility.java:26)
+at crossbrowserTESTNG.Verifyhoodie.failtestscreenshot(Verifyhoodie.java:147)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySecondproductchoose -->
+        <test-method is-config="true" signature="failtestscreenshot(org.testng.ITestResult)[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@6aba2b86]" started-at="2023-02-23T12:22:40 IST" name="failtestscreenshot" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1677135160250" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failtestscreenshot -->
+        <test-method is-config="true" signature="closewindow()[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@6aba2b86]" started-at="2023-02-23T12:22:40 IST" name="closewindow" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1677135160254" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+        <test-method is-config="true" signature="closethebrowser()[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@6aba2b86]" started-at="2023-02-23T12:22:59 IST" name="closethebrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1677135179782" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closethebrowser -->
+      </class> <!-- crossbrowserTESTNG.Verifyhoodie -->
+      <class name="crossbrowserTESTNG.Verifypant">
+        <test-method is-config="true" signature="luanchingbrowser(java.lang.String)[pri:0, instance:crossbrowserTESTNG.Verifypant@158da8e]" started-at="2023-02-23T12:22:27 IST" name="luanchingbrowser" finished-at="2023-02-23T12:22:31 IST" duration-ms="4670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luanchingbrowser -->
+        <test-method is-config="true" signature="objectofpom()[pri:0, instance:crossbrowserTESTNG.Verifypant@158da8e]" started-at="2023-02-23T12:22:40 IST" name="objectofpom" finished-at="2023-02-23T12:22:40 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectofpom -->
+        <test-method is-config="true" signature="enterurlofapplication()[pri:0, instance:crossbrowserTESTNG.Verifypant@158da8e]" started-at="2023-02-23T12:22:40 IST" name="enterurlofapplication" finished-at="2023-02-23T12:22:46 IST" duration-ms="6161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurlofapplication -->
+        <test-method signature="verifytobuyMithraWarpuppant()[pri:0, instance:crossbrowserTESTNG.Verifypant@158da8e]" started-at="2023-02-23T12:22:46 IST" name="verifytobuyMithraWarpuppant" finished-at="2023-02-23T12:22:59 IST" duration-ms="13357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytobuyMithraWarpuppant -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:crossbrowserTESTNG.Verifypant@158da8e]" started-at="2023-02-23T12:22:59 IST" name="screenshot" finished-at="2023-02-23T12:22:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytobuyMithraWarpuppant status=SUCCESS method=Verifypant.verifytobuyMithraWarpuppant()[pri:0, instance:crossbrowserTESTNG.Verifypant@158da8e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="closewindow()[pri:0, instance:crossbrowserTESTNG.Verifypant@158da8e]" started-at="2023-02-23T12:22:59 IST" name="closewindow" finished-at="2023-02-23T12:22:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:crossbrowserTESTNG.Verifypant@158da8e]" started-at="2023-02-23T12:22:59 IST" name="closebrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1677135179789" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- crossbrowserTESTNG.Verifypant -->
+    </test> <!-- firefoxTest -->
+    <test started-at="2023-02-23T12:22:59 IST" name="edgeTest" finished-at="2023-02-23T12:24:29 IST" duration-ms="89519">
+      <class name="crossbrowserTESTNG.Verifyhoodie">
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@323b36e0]" started-at="2023-02-23T12:22:59 IST" name="launchbrowser" finished-at="2023-02-23T12:23:11 IST" duration-ms="11631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="createpomobjects()[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@323b36e0]" started-at="2023-02-23T12:23:18 IST" name="createpomobjects" finished-at="2023-02-23T12:23:18 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createpomobjects -->
+        <test-method is-config="true" signature="enterurlofapplication()[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@323b36e0]" started-at="2023-02-23T12:23:18 IST" name="enterurlofapplication" finished-at="2023-02-23T12:23:28 IST" duration-ms="9577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurlofapplication -->
+        <test-method signature="verifytoproductchoose()[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@323b36e0]" started-at="2023-02-23T12:23:28 IST" name="verifytoproductchoose" finished-at="2023-02-23T12:23:46 IST" duration-ms="17902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytoproductchoose -->
+        <test-method is-config="true" signature="failtestscreenshot(org.testng.ITestResult)[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@323b36e0]" started-at="2023-02-23T12:23:46 IST" name="failtestscreenshot" finished-at="2023-02-23T12:23:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytoproductchoose status=SUCCESS method=Verifyhoodie.verifytoproductchoose()[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@323b36e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failtestscreenshot -->
+        <test-method is-config="true" signature="enterurlofapplication()[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@323b36e0]" started-at="2023-02-23T12:23:46 IST" name="enterurlofapplication" finished-at="2023-02-23T12:23:47 IST" duration-ms="1245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurlofapplication -->
+        <test-method signature="VerifySecondproductchoose()[pri:1, instance:crossbrowserTESTNG.Verifyhoodie@323b36e0]" started-at="2023-02-23T12:23:47 IST" name="VerifySecondproductchoose" finished-at="2023-02-23T12:24:03 IST" duration-ms="15970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySecondproductchoose -->
+        <test-method is-config="true" signature="failtestscreenshot(org.testng.ITestResult)[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@323b36e0]" started-at="2023-02-23T12:24:03 IST" name="failtestscreenshot" finished-at="2023-02-23T12:24:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifySecondproductchoose status=SUCCESS method=Verifyhoodie.VerifySecondproductchoose()[pri:1, instance:crossbrowserTESTNG.Verifyhoodie@323b36e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failtestscreenshot -->
+        <test-method is-config="true" signature="closewindow()[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@323b36e0]" started-at="2023-02-23T12:24:03 IST" name="closewindow" finished-at="2023-02-23T12:24:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+        <test-method is-config="true" signature="closethebrowser()[pri:0, instance:crossbrowserTESTNG.Verifyhoodie@323b36e0]" started-at="2023-02-23T12:24:27 IST" name="closethebrowser" finished-at="2023-02-23T12:24:28 IST" duration-ms="1345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closethebrowser -->
+      </class> <!-- crossbrowserTESTNG.Verifyhoodie -->
+      <class name="crossbrowserTESTNG.Verifypant">
+        <test-method is-config="true" signature="luanchingbrowser(java.lang.String)[pri:0, instance:crossbrowserTESTNG.Verifypant@44ebcd03]" started-at="2023-02-23T12:23:11 IST" name="luanchingbrowser" finished-at="2023-02-23T12:23:18 IST" duration-ms="7263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luanchingbrowser -->
+        <test-method is-config="true" signature="objectofpom()[pri:0, instance:crossbrowserTESTNG.Verifypant@44ebcd03]" started-at="2023-02-23T12:24:03 IST" name="objectofpom" finished-at="2023-02-23T12:24:03 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectofpom -->
+        <test-method is-config="true" signature="enterurlofapplication()[pri:0, instance:crossbrowserTESTNG.Verifypant@44ebcd03]" started-at="2023-02-23T12:24:03 IST" name="enterurlofapplication" finished-at="2023-02-23T12:24:13 IST" duration-ms="10294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurlofapplication -->
+        <test-method signature="verifytobuyMithraWarpuppant()[pri:0, instance:crossbrowserTESTNG.Verifypant@44ebcd03]" started-at="2023-02-23T12:24:13 IST" name="verifytobuyMithraWarpuppant" finished-at="2023-02-23T12:24:27 IST" duration-ms="13614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytobuyMithraWarpuppant -->
+        <test-method is-config="true" signature="screenshot(org.testng.ITestResult)[pri:0, instance:crossbrowserTESTNG.Verifypant@44ebcd03]" started-at="2023-02-23T12:24:27 IST" name="screenshot" finished-at="2023-02-23T12:24:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifytobuyMithraWarpuppant status=SUCCESS method=Verifypant.verifytobuyMithraWarpuppant()[pri:0, instance:crossbrowserTESTNG.Verifypant@44ebcd03] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method is-config="true" signature="closewindow()[pri:0, instance:crossbrowserTESTNG.Verifypant@44ebcd03]" started-at="2023-02-23T12:24:27 IST" name="closewindow" finished-at="2023-02-23T12:24:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:crossbrowserTESTNG.Verifypant@44ebcd03]" started-at="2023-02-23T12:24:28 IST" name="closebrowser" finished-at="2023-02-23T12:24:29 IST" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- crossbrowserTESTNG.Verifypant -->
+    </test> <!-- edgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
